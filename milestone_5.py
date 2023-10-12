@@ -89,10 +89,10 @@ def play_game(word_list):
     while True:
         game.ask_for_input()
         if game.num_lives == 0:
-            print("You lost!\n")
+            print(f"You lost!\nThe word was: {game.word}")
             break
         else:
-            print("Congatulations! You won the game!")
+            print(f"Congatulations! You won the game!\nthe word was: {game.word}")
             print(f"it took you {game.total_num_guesses} guesses to win!\n")
             break
 
