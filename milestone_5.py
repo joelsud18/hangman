@@ -1,5 +1,6 @@
 import random
 
+
 class Hangman:
 
     '''
@@ -34,7 +35,7 @@ class Hangman:
             guess (string): This is the letter input from the user.
         '''
 
-        guess.lower()
+        guess = guess.lower()
         if guess in self.word:
             print(f"\nGood guess! {guess} is in the word. \n")
             index = 0
@@ -106,4 +107,5 @@ word_list = ["apple", "banana", "carrot", "elephant", "flower",
     "cucumber", "penguin", "chocolate", "laptop", "sunrise",
     "butterfly", "giraffe", "river", "mountain", "desert"]
 
-play_game(word_list)
+if __name__ == "__main__":
+    play_game(word_list)
