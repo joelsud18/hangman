@@ -14,7 +14,7 @@ By **Joel Sud**
 
 
 ## Description: 
-This is an Ai Core project. Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts. This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess the word by providing character guesses!
+This is an Ai Core project. Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts. This is an implementation of the Hangman game using Python, where the computer thinks of a word and the user tries to guess the word by providing character guesses!
 
 ## Installation Instructions:
 1. **Download and clone repository:**
