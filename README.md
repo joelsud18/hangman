@@ -16,6 +16,10 @@ By **Joel Sud**
 ## Description: 
 This is an Ai Core project. Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts. This is an implementation of the Hangman game using Python, where the computer thinks of a word and the user tries to guess the word by providing character guesses!
 
+Here is some example gameplay:
+
+![Running the Python Script](hangman_screenshot.png)
+
 ## Installation Instructions:
 1. **Download and clone repository:**
 - copy the repository URL by clicking '*<> Code*' above the list of files in GitHub Repo. Then copy and paste the '*HTTPS*' URL:
@@ -40,6 +44,7 @@ other files can be viewed to understand the development of this project.
     - milestone_2.py
     - milestone_3.py
     - milestone_4.py
+- hangman_screenshot.png
 
 ## Project Documentation
 
